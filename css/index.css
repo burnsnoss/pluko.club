@@ -1,0 +1,56 @@
+body, html {
+	height: 100%;
+	width: 100%;
+	overflow: hidden;
+	font-family: 'Archivo', sans-serif;
+}
+
+a {
+	color: #101010;
+}
+
+a:hover {
+	color: #b5c7d8;
+	transition-duration: 0.2s;
+}
+
+.navbar {
+	background-color: #f0f0f0;
+	color: #101010;
+}
+
+#preorder-nav, #listen-nav, #site-title {
+	display: none;
+}
+
+#album-cover {
+	text-align: center;
+}
+
+#album-img {
+	padding-top: 15px;
+	display: none;
+}
+
+#preorder-container {
+	margin-top: 45px;
+	display: none;
+	font-size: 1.6em;
+	background-color: #f0f0f0;
+}
+
+#youtube {
+	display: none;
+}
+
+/*
+.btn-primary {
+	background-color: #000000;
+	color: #64E764;
+	border-color: #74E774;
+}
+
+.btn-primary:hover {
+	background-color: #222222;
+	border-color: #74E774;
+ }*/
