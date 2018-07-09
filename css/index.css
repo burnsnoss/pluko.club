@@ -1,7 +1,6 @@
 body, html {
 	height: 100%;
 	width: 100%;
-	overflow: hidden;
 	font-family: 'Archivo', sans-serif;
 }
 
@@ -15,12 +14,38 @@ a:hover {
 }
 
 .navbar {
-	background-color: #f0f0f0;
+	background-color: #ffffff;
 	color: #101010;
 }
 
-#preorder-nav, #listen-nav, #site-title {
-	display: none;
+.navbar-brand {
+	float: none;
+	background-color: #e2e2e2;
+	padding: 14px;
+}
+
+.navbar-header {
+    float: left;
+    padding: 15px;
+    text-align: center;
+    width: 100%;
+}
+
+.btn {
+	border-color: #ffffff;
+	border-width: 4px;
+	color: #111111;
+	background-color: #cbcdd5;
+}
+
+.btn:hover {
+	border-color: #ff893b;
+	border-width: 4px;
+	color: #ffffff;
+}
+
+#top-row {
+	padding-top: 30px;
 }
 
 #album-cover {
@@ -28,20 +53,55 @@ a:hover {
 }
 
 #album-img {
-	padding-top: 15px;
 	display: none;
 }
 
-#preorder-container {
-	margin-top: 45px;
-	display: none;
-	font-size: 1.6em;
-	background-color: #f0f0f0;
+#album-title {
+	font-size: 3.3em;
+}
+
+#preorder-button {
+	font-size: 2.0em;
+}
+
+#site-title {
+	max-height: 60px;
+}
+
+#logo {
+	max-height: 120px;
+}
+
+#tour-title {
+	font-size: 2.6em;
+	padding: 65px 0px 5px 0px;
+}
+
+.tour-row {
+	padding: 25px;
+}
+
+.tickets-btn {
+	font-size: 1.2em;
 }
 
 #youtube {
-	display: none;
+	padding: 35px;
 }
+
+#yt-iframe {
+	max-height: 236px;
+	max-width: 420px;
+}
+
+/*#preorder-container {
+	margin-top: 45px;
+	display: none;
+	font-size: 1.6em;
+	background-color: #e2e2e2;
+}*/
+
+
 
 /*
 .btn-primary {

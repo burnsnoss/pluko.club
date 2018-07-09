@@ -10,11 +10,13 @@
     <!-- Bootstrap CSS -->
     <link href="bootstrap-4.0.0/css/bootstrap.min.css" rel="stylesheet">
 
+    <!-- Custom Font --> 
+    <link href="https://fonts.googleapis.com/css?family=Archivo" rel="stylesheet">
+
     <!-- Custom CSS -->
     <link href="css/index.css" rel="stylesheet">
 
-    <!-- Custom Font --> 
-    <link href="https://fonts.googleapis.com/css?family=Archivo" rel="stylesheet">
+    
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -27,7 +29,15 @@
   <body>
     <!-- Navbar -->
     <nav class="navbar navbar-expand-md"> 
-      <div class ="container">
+      <div class="navbar-header">
+        <div class="navbar-center">
+          <img src="./imgs/Pluko_Logotype.png" class="img-fluid" id="site-title"></img>
+        </div>
+        <!-- <div class="navbar-left navbar-brand">  
+          <img src="./imgs/Pluko_Logo_Symbol.png" class="img-fluid" id="logo"></img>
+        <div> -->
+      </div>
+      <!-- <div class ="container">
         <div class="navbar-brand">
           <div id="site-title">p l u k o</div>
         </div>
@@ -41,27 +51,84 @@
             </li>
           </ul>
         </div>
-      </div>
+      </div> -->
     </nav>
     
     <!-- Body Content -->
     <div class="container" id="album-cover">
+      <!-- Album Cover -->
+      <div class="row align-items-center" id="top-row">
+        <div class="col-sm">
+          <img src="./imgs/pluko-sixteen-final.png" class="img-fluid" id="album-img"></img>
+        </div>
+        <div class="col-sm">
+          <div class="container" id="album-title">
+            <b>S I X T E E N</b>
+          </div>
+          <div class="container">
+            <button class="btn" id="preorder-button">p r e o r d e r &nbsp; n o w</button>
+          </div>
+        </div>
+      </div>
       <div class="row">
+        <div class="container" id="tour-title">
+          T O U R
+        </div>
+      </div>
+      <div class="row align-items-center tour-row">
         <div class="col-sm"></div>
         <div class="col-sm">
-          <img src="https://i1.sndcdn.com/artworks-000358126608-v986x6-t500x500.jpg" id="album-img"></img>
+          <b>July 20, 2018</b><br>
+          The Troubadour<br>
+          Los Angeles, CA
+        </div>
+        <div class="col-sm">
+          <button class="btn tickets-btn">View Tickets</button>
         </div>
         <div class="col-sm"></div>
       </div>
-      <div class="row">
-        <div id="preorder-container">
+      <div class="row align-items-center tour-row">
+        <div class="col-sm"></div>
+        <div class="col-sm">
+          <b>August 6, 2018</b><br>
+          Bonnaroo<br>
+          Manchester, TN
+        </div>
+        <div class="col-sm">
+          <button class="btn tickets-btn">View Tickets</button>
+        </div>
+        <div class="col-sm"></div>
+      </div>
+
+
+      <!-- Preorder Jumbo -->
+      <!-- <div class="row">
+        <div class ="container" id="preorder-container">
           <a href="https://preorder.com" id="preorder-button">p r e o r d e r</a>
+        </div>
+      </div> -->
+      <!-- YouTube Vid -->
+      <div class="row" id="youtube">
+        <div class="container">
+          <iframe src="https://www.youtube.com/embed/tCgcWRwVyXM?autoplay=1" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen id="yt-iframe"></iframe>
+        </div>
+      </div>
+      <div class="row">
+        <div class="container">
+          &lt; &lt; &lt; social media &gt; &gt; &gt;
+        </div>
+      </div>
+      <div class="row">
+        <div class="container">
+          &lt; &lt; &lt; contact &gt; &gt; &gt;
+        </div>
+      </div>
+      <div class="row">
+        <div class="container">
+          <img src="./imgs/Pluko_Logo_Symbol.png" class="img-fluid" id="logo"></img>
         </div>
       </div>
     </div>
-
-    <!-- background youtube player -->
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/tCgcWRwVyXM?autoplay=1" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen id="youtube"></iframe>
 
     <!-- jQuery -->
     <script
