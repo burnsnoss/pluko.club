@@ -16,7 +16,8 @@
     <!-- Custom CSS -->
     <link href="css/index.css" rel="stylesheet">
 
-    
+    <!-- Icon Library -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -29,33 +30,25 @@
   <body>
     <!-- Navbar -->
     <nav class="navbar navbar-expand-md"> 
-      <div class="navbar-header">
+      <div class="container navbar-container">
+        <div class="nav-stuff nav-clickable" id="tour-link">
+          t o u r
+        </div>
         <div class="navbar-center">
           <img src="./imgs/Pluko_Logotype.png" class="img-fluid" id="site-title"></img>
         </div>
-        <!-- <div class="navbar-left navbar-brand">  
-          <img src="./imgs/Pluko_Logo_Symbol.png" class="img-fluid" id="logo"></img>
-        <div> -->
+        <div class="nav-stuff" id="nav-social-icons">
+          <i class="fab fa-soundcloud nav-clickable"></i>
+          <i class="fab fa-spotify nav-clickable"></i>
+          <i class="fab fa-facebook-square nav-clickable"></i>
+          <i class="fab fa-twitter nav-clickable"></i>
+          <i class="fab fa-youtube nav-clickable"></i>
+        </div>
       </div>
-      <!-- <div class ="container">
-        <div class="navbar-brand">
-          <div id="site-title">p l u k o</div>
-        </div>
-        <div class="collapse navbar-collapse">
-          <ul class="navbar-nav alight-right ml-auto">
-            <li class="nav-item" id="preorder-nav">
-              <a class="nav-link" href="#">preorder</a>
-            </li>
-            <li class="nav-item" id="listen-nav">
-              <a class="nav-link" href="https://soundcloud.com/plukomusic/sets/need-ya-pink">listen</a>
-            </li>
-          </ul>
-        </div>
-      </div> -->
     </nav>
     
     <!-- Body Content -->
-    <div class="container" id="album-cover">
+    <div class="container" id="body-content">
       <!-- Album Cover -->
       <div class="row align-items-center" id="top-row">
         <div class="col-sm">
@@ -70,6 +63,9 @@
           </div>
         </div>
       </div>
+
+      <!-- Tour Section -->
+      <!--
       <div class="row">
         <div class="container" id="tour-title">
           T O U R
@@ -99,36 +95,67 @@
         </div>
         <div class="col-sm"></div>
       </div>
+      -->
 
 
-      <!-- Preorder Jumbo -->
-      <!-- <div class="row">
-        <div class ="container" id="preorder-container">
-          <a href="https://preorder.com" id="preorder-button">p r e o r d e r</a>
-        </div>
-      </div> -->
       <!-- YouTube Vid -->
       <div class="row" id="youtube">
         <div class="container">
           <iframe src="https://www.youtube.com/embed/tCgcWRwVyXM?autoplay=1" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen id="yt-iframe"></iframe>
         </div>
       </div>
-      <div class="row">
-        <div class="container">
-          &lt; &lt; &lt; social media &gt; &gt; &gt;
+
+      <!-- Buffer Row -->
+      <div class="row" id="buffer" style="height: 60px"></div>
+
+      <!-- Social Media -->
+      <div class="footer">
+        <div class="row" id="social-media-row">
+          <div class="container">
+            <div class="nav-stuff" id="nav-social-icons">
+              <i class="fab fa-soundcloud nav-clickable"></i>
+              <i class="fab fa-spotify nav-clickable"></i>
+              <i class="fab fa-facebook-square nav-clickable"></i>
+              <i class="fab fa-twitter nav-clickable"></i>
+              <i class="fab fa-youtube nav-clickable"></i>
+            </div>
+          </div>
         </div>
-      </div>
-      <div class="row">
-        <div class="container">
-          &lt; &lt; &lt; contact &gt; &gt; &gt;
+
+        <!-- Contact Info -->
+        <div class="contact">
+          <div class="row " id="contact-title-row">
+            <div class="container">
+              <b>c o n t a c t &nbsp; &nbsp; p l u k o</b>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm"></div>
+            <div class="col-sm">
+              <b>b o o k i n g :</b> &nbsp; &nbsp;
+              L o r e m . I p s u m @ p l u k o . c l u b
+            </div>
+            <div class="col-sm"></div>
+          </div>
+          <div class="row">
+            <div class="col-sm"></div>
+            <div class="col-sm">
+              <b>m g m t :</b> &nbsp; &nbsp;
+              M i c h e l l e . O b a m a @ p l u k o . c l u b
+            </div>
+            <div class="col-sm"></div>
+          </div>
         </div>
-      </div>
-      <div class="row">
-        <div class="container">
-          <img src="./imgs/Pluko_Logo_Symbol.png" class="img-fluid" id="logo"></img>
+
+        <!-- Pluko Logo -->
+        <div class="row" style="padding-top: 20px">
+          <div class="container">
+            <img src="./imgs/Pluko_Logo_Symbol.png" class="img-fluid" id="logo"></img>
+          </div>
         </div>
       </div>
     </div>
+
 
     <!-- jQuery -->
     <script

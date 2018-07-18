@@ -1,11 +1,11 @@
 p l u k o
 =========
 
-This is a conceptual site for my guy pluko
+Album preorder site for my guy pluko
 
 Site by burnsnoss
 
 TODO:
-1. music media icons: at the bottom, fade in upon a mouse movement?
-   twitter, fb?
-2. 
+1. Make tour button work
+2. Connect social media links
+3. Optimize UI animations and loading
