@@ -29,10 +29,16 @@
 
   <body>
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-md"> 
-      <div class="container navbar-container">
-        <div class="nav-stuff nav-clickable" id="tour-link">
-          t o u r
+    <header class="navbar navbar-expand-sm"> 
+      <div class="container-fluid">
+        <div class="nav-stuff">
+          <a class="nav-clickable" id="music-link" href="http://www.redidt.com">
+            m u s i c
+          </a>
+          &nbsp; | &nbsp;
+          <a class="nav-clickable" id="contact-link" href="http://www.gogole.com">
+            c o n t a c t
+          </a>
         </div>
         <div class="navbar-center">
           <img src="./imgs/Pluko_Logotype.png" class="img-fluid" id="site-title"></img>
@@ -45,21 +51,30 @@
           <i class="fab fa-youtube nav-clickable"></i>
         </div>
       </div>
-    </nav>
+    </header>
     
     <!-- Body Content -->
-    <div class="container" id="body-content">
-      <!-- Album Cover -->
+    <div class="container-fluid" id="body-content">
+
+      <!-- Jumbotron Row -->
       <div class="row align-items-center" id="top-row">
+        <!-- Album Cover Panel -->
         <div class="col-sm">
           <img src="./imgs/pluko-sixteen-final.png" class="img-fluid" id="album-img"></img>
         </div>
-        <div class="col-sm">
+        <!-- Preorder Button Panel -->
+        <div class="col-sm" id="preorder-section">
           <div class="container" id="album-title">
             <b>S I X T E E N</b>
           </div>
           <div class="container">
-            <button class="btn" id="preorder-button">p r e o r d e r &nbsp; n o w</button>
+            <button class="btn" id="preorder-button">
+              <img src="./imgs/Pluko_Logo_Symbol.png" class="img-fluid preorder-logo" />
+              &nbsp;
+              p r e o r d e r &nbsp; n o w
+              &nbsp;
+              <img src="./imgs/Pluko_Logo_Symbol.png" class="img-fluid preorder-logo" />
+            </button>
           </div>
         </div>
       </div>
@@ -98,7 +113,7 @@
       -->
 
 
-      <!-- YouTube Vid -->
+      <!-- Background Audio YouTube Vid -->
       <div class="row" id="youtube">
         <div class="container">
           <iframe src="https://www.youtube.com/embed/tCgcWRwVyXM?autoplay=1" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen id="yt-iframe"></iframe>
@@ -106,9 +121,70 @@
       </div>
 
       <!-- Buffer Row -->
-      <div class="row" id="buffer" style="height: 60px"></div>
+      <div class="row white-row"></div>
+
+      <!-- Music Section -->
+      <div class="row grey-row" id="music-row">
+        <div class="container-fluid" id="music-content">
+          <div class="container" id="music-header">
+            <b>m u s i c</b>
+          </div>
+          <iframe src="https://open.spotify.com/user/1281756893/playlist/2FWBjzS2fzBMhnsRmsxOwl" width="300" height="380" frameborder="0" allowtransparency="true" style="border: 3px solid black"></iframe>
+        </div>
+      </div>
+
+      <!-- Buffer Row -->
+      <div class="row grey-row"></div>
+
+      <!-- Contact Section -->
+      <div class="row white-row" id="contact-title-row">
+        <div class="container-fluid white" id="contact-header">
+          <b>c o n t a c t</b>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm"></div>
+        <div class="col-sm">
+          <b>b o o k i n g :</b> &nbsp; &nbsp;
+          L o r e m . I p s u m @ p l u k o . c l u b
+        </div>
+        <div class="col-sm"></div>
+      </div>
+      <div class="row">
+        <div class="col-sm"></div>
+        <div class="col-sm">
+          <b>m g m t :</b> &nbsp; &nbsp;
+          M i c h e l l e . O b a m a @ p l u k o . c l u b
+        </div>
+        <div class="col-sm"></div>
+      </div>
+
+      <!-- Buffer Row -->
+      <div class="row white-row"></div>
+
+      <!-- Footer --> 
+      <div class="row grey-row">
+        <div class="container">
+          <div class="nav-stuff">
+            <i class="fab fa-soundcloud nav-clickable"></i>
+            <i class="fab fa-spotify nav-clickable"></i>
+            <i class="fab fa-facebook-square nav-clickable"></i>
+            <i class="fab fa-twitter nav-clickable"></i>
+            <i class="fab fa-youtube nav-clickable"></i>
+          </div>
+        </div>
+      </div>
+      <div class="row grey-row" style="padding-top: 20px">
+        <div class="container">
+          <img src="./imgs/Pluko_Logo_Symbol.png" class="img-fluid" id="logo"></img>
+        </div>
+      </div>
+
+
 
       <!-- Social Media -->
+
+      <!--
       <div class="footer">
         <div class="row" id="social-media-row">
           <div class="container">
@@ -121,8 +197,10 @@
             </div>
           </div>
         </div>
+      -->
 
         <!-- Contact Info -->
+        <!--
         <div class="contact">
           <div class="row " id="contact-title-row">
             <div class="container">
@@ -147,14 +225,20 @@
           </div>
         </div>
 
+      -->
+
         <!-- Pluko Logo -->
+        <!--
         <div class="row" style="padding-top: 20px">
           <div class="container">
             <img src="./imgs/Pluko_Logo_Symbol.png" class="img-fluid" id="logo"></img>
           </div>
         </div>
       </div>
+
+      -->
     </div>
+  
 
 
     <!-- jQuery -->

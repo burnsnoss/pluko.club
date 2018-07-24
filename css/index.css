@@ -14,12 +14,9 @@ a:hover {
 }
 
 .navbar {
+	padding-top: 25px;
 	background-color: #ffffff;
 	color: #101010;
-}
-
-.navbar-container {
-	padding-top: 14px;
 }
 
 .nav-stuff {
@@ -36,6 +33,7 @@ a:hover {
 	color: #ffffff;
 	transition-duration: 0.3s;
 	cursor: pointer;
+	text-decoration: none;
 }
 
 /*.navbar-header {
@@ -59,15 +57,17 @@ a:hover {
 	border-radius: 3px;
 }
 
-#top-row {
+/*#top-row {
 	padding-top: 30px;
-}
+}*/
 
 #body-content {
+	padding-top: 15px;
 	text-align: center;
 }
 
 #album-img {
+	max-height: 685px;
 	display: none;
 }
 
@@ -77,6 +77,11 @@ a:hover {
 
 #preorder-button {
 	font-size: 2.0em;
+}
+
+.preorder-logo {
+	max-height: 30px;
+	opacity: 0;
 }
 
 #site-title {
@@ -110,18 +115,32 @@ a:hover {
 	max-height: 236px;
 	max-width: 420px;
 }
-
+/*
 .footer {
 	padding-top: 25px;
 	background-color: #cbcdd5;
+}*/
+
+.grey-row {
+	padding-top: 25px;
+	background-color: #cbcdd5;
+}
+
+.white-row {
+	padding: 25px 0px 25px 0px;
+	background-color: #ffffff;
+}
+
+#music-header {
+	font-size: 2.0em;
 }
 
 .contact {
 	font-size: 0.85em;
 }
 
-#contact-title-row {
-	padding-top: 20px;
+#contact-header {
+	font-size: 2.0em;
 }
 
 /*#preorder-container {
