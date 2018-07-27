@@ -28,15 +28,16 @@
   </head>
 
   <body>
+
     <!-- Navbar -->
-    <header class="navbar navbar-expand-sm"> 
+    <nav class="navbar navbar-expand-sm"> 
       <div class="container-fluid">
         <div class="nav-stuff">
-          <a class="nav-clickable" id="music-link" href="http://www.redidt.com">
+          <a class="nav-clickable" id="music-link">
             m u s i c
           </a>
           &nbsp; | &nbsp;
-          <a class="nav-clickable" id="contact-link" href="http://www.gogole.com">
+          <a class="nav-clickable" id="contact-link">
             c o n t a c t
           </a>
         </div>
@@ -44,15 +45,27 @@
           <img src="./imgs/Pluko_Logotype.png" class="img-fluid" id="site-title"></img>
         </div>
         <div class="nav-stuff" id="nav-social-icons">
-          <i class="fab fa-soundcloud nav-clickable"></i>
-          <i class="fab fa-spotify nav-clickable"></i>
-          <i class="fab fa-facebook-square nav-clickable"></i>
-          <i class="fab fa-twitter nav-clickable"></i>
-          <i class="fab fa-youtube nav-clickable"></i>
+          <a href="https://www.soundcloud.com/plukomusic">
+            <i class="fab fa-soundcloud nav-clickable"></i>
+          </a>
+          <a href="https://open.spotify.com/artist/01qbSocTDAe2DmKayS89A5">
+            <i class="fab fa-spotify nav-clickable spotify-link"></i>
+          </a>
+          <a href="https://www.facebook.com/plukomusic/">
+            <i class="fab fa-facebook-square nav-clickable facebook-link"></i>
+          </a>
+          <a href="https://twitter.com/pluko?lang=en">
+            <i class="fab fa-twitter nav-clickable twitter-link"></i>
+          </a>
+          <a href="https://www.youtube.com/channel/UCAuFghi1ubOPTjvghHn-9Ow">
+            <i class="fab fa-youtube nav-clickable youtube-link"></i>
+          </a>
         </div>
       </div>
-    </header>
+    </nav>
     
+
+
     <!-- Body Content -->
     <div class="container-fluid" id="body-content">
 
@@ -69,51 +82,17 @@
           </div>
           <div class="container">
             <button class="btn" id="preorder-button">
-              <img src="./imgs/Pluko_Logo_Symbol.png" class="img-fluid preorder-logo" />
               &nbsp;
               p r e o r d e r &nbsp; n o w
               &nbsp;
-              <img src="./imgs/Pluko_Logo_Symbol.png" class="img-fluid preorder-logo" />
             </button>
           </div>
         </div>
       </div>
 
-      <!-- Tour Section -->
-      <!--
-      <div class="row">
-        <div class="container" id="tour-title">
-          T O U R
-        </div>
-      </div>
-      <div class="row align-items-center tour-row">
-        <div class="col-sm"></div>
-        <div class="col-sm">
-          <b>July 20, 2018</b><br>
-          The Troubadour<br>
-          Los Angeles, CA
-        </div>
-        <div class="col-sm">
-          <button class="btn tickets-btn">View Tickets</button>
-        </div>
-        <div class="col-sm"></div>
-      </div>
-      <div class="row align-items-center tour-row">
-        <div class="col-sm"></div>
-        <div class="col-sm">
-          <b>August 6, 2018</b><br>
-          Bonnaroo<br>
-          Manchester, TN
-        </div>
-        <div class="col-sm">
-          <button class="btn tickets-btn">View Tickets</button>
-        </div>
-        <div class="col-sm"></div>
-      </div>
-      -->
 
 
-      <!-- Background Audio YouTube Vid -->
+      <!-- Background Audio YouTube Vid (Invisible) -->
       <div class="row" id="youtube">
         <div class="container">
           <iframe src="https://www.youtube.com/embed/tCgcWRwVyXM?autoplay=1" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen id="yt-iframe"></iframe>
@@ -121,56 +100,76 @@
       </div>
 
       <!-- Buffer Row -->
-      <div class="row white-row"></div>
+      <div class="row grey-row"></div>
+
+
 
       <!-- Music Section -->
       <div class="row grey-row" id="music-row">
-        <div class="container-fluid" id="music-content">
+        <div class="container-fluid">
           <div class="container" id="music-header">
             <b>m u s i c</b>
           </div>
-          <iframe src="https://open.spotify.com/user/1281756893/playlist/2FWBjzS2fzBMhnsRmsxOwl" width="300" height="380" frameborder="0" allowtransparency="true" style="border: 3px solid black"></iframe>
+          <div class="container" id="spotify-container">
+            <iframe src="https://open.spotify.com/user/1281756893/playlist/2FWBjzS2fzBMhnsRmsxOwl" width="100%" height="100%" frameborder="0" allowtransparency="true" style="border: 3px solid black"></iframe>
+          </div>
         </div>
       </div>
 
       <!-- Buffer Row -->
       <div class="row grey-row"></div>
 
+
+
       <!-- Contact Section -->
-      <div class="row white-row" id="contact-title-row">
+      <div class="row white-row">
         <div class="container-fluid white" id="contact-header">
           <b>c o n t a c t</b>
         </div>
       </div>
-      <div class="row">
-        <div class="col-sm"></div>
-        <div class="col-sm">
-          <b>b o o k i n g :</b> &nbsp; &nbsp;
-          L o r e m . I p s u m @ p l u k o . c l u b
+      <div id="contact-content">
+        <div class="row">
+          <div class="col-sm"></div>
+          <div class="col-sm">
+            <b>b o o k i n g :</b> &nbsp; &nbsp;
+            L o r e m . I p s u m @ p l u k o . c l u b
+          </div>
+          <div class="col-sm"></div>
         </div>
-        <div class="col-sm"></div>
-      </div>
-      <div class="row">
-        <div class="col-sm"></div>
-        <div class="col-sm">
-          <b>m g m t :</b> &nbsp; &nbsp;
-          M i c h e l l e . O b a m a @ p l u k o . c l u b
+        <div class="row">
+          <div class="col-sm"></div>
+          <div class="col-sm">
+            <b>m g m t :</b> &nbsp; &nbsp;
+            M i c h e l l e . O b a m a @ p l u k o . c l u b
+          </div>
+          <div class="col-sm"></div>
         </div>
-        <div class="col-sm"></div>
       </div>
 
       <!-- Buffer Row -->
       <div class="row white-row"></div>
 
+
+
       <!-- Footer --> 
       <div class="row grey-row">
         <div class="container">
           <div class="nav-stuff">
-            <i class="fab fa-soundcloud nav-clickable"></i>
-            <i class="fab fa-spotify nav-clickable"></i>
-            <i class="fab fa-facebook-square nav-clickable"></i>
-            <i class="fab fa-twitter nav-clickable"></i>
-            <i class="fab fa-youtube nav-clickable"></i>
+            <a href="https://www.soundcloud.com/plukomusic">
+              <i class="fab fa-soundcloud nav-clickable"></i>
+            </a>
+            <a href="https://open.spotify.com/artist/01qbSocTDAe2DmKayS89A5">
+              <i class="fab fa-spotify nav-clickable spotify-link"></i>
+            </a>
+            <a href="https://www.facebook.com/plukomusic/">
+              <i class="fab fa-facebook-square nav-clickable facebook-link"></i>
+            </a>
+            <a href="https://twitter.com/pluko?lang=en">
+              <i class="fab fa-twitter nav-clickable twitter-link"></i>
+            </a>
+            <a href="https://www.youtube.com/channel/UCAuFghi1ubOPTjvghHn-9Ow">
+              <i class="fab fa-youtube nav-clickable youtube-link"></i>
+            </a>
           </div>
         </div>
       </div>
@@ -179,64 +178,6 @@
           <img src="./imgs/Pluko_Logo_Symbol.png" class="img-fluid" id="logo"></img>
         </div>
       </div>
-
-
-
-      <!-- Social Media -->
-
-      <!--
-      <div class="footer">
-        <div class="row" id="social-media-row">
-          <div class="container">
-            <div class="nav-stuff" id="nav-social-icons">
-              <i class="fab fa-soundcloud nav-clickable"></i>
-              <i class="fab fa-spotify nav-clickable"></i>
-              <i class="fab fa-facebook-square nav-clickable"></i>
-              <i class="fab fa-twitter nav-clickable"></i>
-              <i class="fab fa-youtube nav-clickable"></i>
-            </div>
-          </div>
-        </div>
-      -->
-
-        <!-- Contact Info -->
-        <!--
-        <div class="contact">
-          <div class="row " id="contact-title-row">
-            <div class="container">
-              <b>c o n t a c t &nbsp; &nbsp; p l u k o</b>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-sm"></div>
-            <div class="col-sm">
-              <b>b o o k i n g :</b> &nbsp; &nbsp;
-              L o r e m . I p s u m @ p l u k o . c l u b
-            </div>
-            <div class="col-sm"></div>
-          </div>
-          <div class="row">
-            <div class="col-sm"></div>
-            <div class="col-sm">
-              <b>m g m t :</b> &nbsp; &nbsp;
-              M i c h e l l e . O b a m a @ p l u k o . c l u b
-            </div>
-            <div class="col-sm"></div>
-          </div>
-        </div>
-
-      -->
-
-        <!-- Pluko Logo -->
-        <!--
-        <div class="row" style="padding-top: 20px">
-          <div class="container">
-            <img src="./imgs/Pluko_Logo_Symbol.png" class="img-fluid" id="logo"></img>
-          </div>
-        </div>
-      </div>
-
-      -->
     </div>
   
 

@@ -3,28 +3,18 @@ function getRandomInRange(range) {
 };
 
 function generateFadeTimes() {
-	// Fade rates:
-	//  album cover  3000-4000 ms
-	//  title        1200-2500 ms
-	//  nav links    1500-3500 ms
-	//  preorder     4000-5000 ms
 
-	var album_range    = [8000, 10000];
-	var title_range    = [5200, 7000];
-	// var nav_range      = [5500, 7500];
-	var preorder_range = [7500, 8500];
+	var album_range    = [1000, 2000];
+	var title_range    = [1500, 2500];
+	var preorder_range = [2000, 3000];
 
 	var album_time        = getRandomInRange(album_range);
 	var title_time        = getRandomInRange(title_range);
-	// var nav_preorder_time = getRandomInRange(nav_range);
-	// var nav_listen_time   = getRandomInRange(nav_range);
 	var preorder_time     = getRandomInRange(preorder_range);
 
 	var times = {
 		album: album_time,
 		title: title_time,
-		// nav_preorder: nav_preorder_time,
-		// nav_listen: nav_listen_time,
 		preorder: preorder_time
 	};
 
@@ -34,14 +24,24 @@ function generateFadeTimes() {
 function fadeInElements() {
 	var times = generateFadeTimes();
 	$('#album-img').fadeIn(times.album);
-	$('#navbar-header').fadeIn(times.title);
-	// $('#preorder-nav').fadeIn(times.nav_preorder);
-	// $('#listen-nav').fadeIn(times.nav_listen);
-	$('#preorder-container').fadeIn(times.preorder);
+	$('#album-title').fadeIn(times.title);
+	$('#preorder-button').fadeIn(times.preorder);
+	return;
 };
 
 $('document').ready(function() {
 	fadeInElements();
+	listen();
 });
 
+$('#music-link').click(function() {
+    $([document.documentElement, document.body]).animate({
+        scrollTop: $("#music-header").offset().top
+    }, 800);
+});
 
+$('#contact-link').click(function() {
+    $([document.documentElement, document.body]).animate({
+        scrollTop: $("#contact-header").offset().top
+    }, 800);
+});

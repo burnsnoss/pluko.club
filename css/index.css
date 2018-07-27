@@ -4,6 +4,10 @@ body, html {
 	font-family: 'Archivo', sans-serif;
 }
 
+
+
+/* --- Hyperlinks --- */
+
 a {
 	color: #101010;
 }
@@ -13,9 +17,31 @@ a:hover {
 	transition-duration: 0.3s;
 }
 
+
+
+/* --- Buttons --- */
+
+.btn {
+	border-color: #ffffff;
+	border-width: 4px;
+	color: #111111;
+	background-color: #cbcdd5;
+	border-radius: 3px;
+}
+
+.btn:hover {
+	border-color: #ff893b;
+	border-width: 4px;
+	color: #ffffff;
+	border-radius: 3px;
+}
+
+
+
+/* --- Navbar --- */
+
 .navbar {
-	padding-top: 25px;
-	background-color: #ffffff;
+	padding: 25px 0px 25px 0px;
 	color: #101010;
 }
 
@@ -36,39 +62,25 @@ a:hover {
 	text-decoration: none;
 }
 
-/*.navbar-header {
-    float: left;
-    text-align: center;
-    width: 100%;
-}*/
-
-.btn {
-	border-color: #ffffff;
-	border-width: 4px;
-	color: #111111;
-	background-color: #cbcdd5;
-	border-radius: 3px;
+#site-title {
+	margin-left: 15px;
+	max-height: 60px;
 }
 
-.btn:hover {
-	border-color: #ff893b;
-	border-width: 4px;
-	color: #ffffff;
-	border-radius: 3px;
-}
 
-/*#top-row {
-	padding-top: 30px;
-}*/
+
+/* --- Jumbotron --- */
 
 #body-content {
-	padding-top: 15px;
 	text-align: center;
 }
 
+#top-row {
+	background-image: url('../imgs/grey-background.jpg');
+}
+
 #album-img {
-	max-height: 685px;
-	display: none;
+	max-height: 700px;
 }
 
 #album-title {
@@ -79,32 +91,34 @@ a:hover {
 	font-size: 2.0em;
 }
 
-.preorder-logo {
-	max-height: 30px;
-	opacity: 0;
+
+
+/* --- Music --- */
+
+#music-header {
+	font-size: 2.0em;
 }
 
-#site-title {
-	margin-left: 15px;
-	max-height: 60px;
+#spotify-container {
+	height: 500px;
+	max-width: 630px;
 }
 
-#logo {
-	max-height: 120px;
+
+
+/* --- Contact --- */
+
+#contact-header {
+	font-size: 2.0em;
 }
 
-#tour-title {
-	font-size: 2.6em;
-	padding: 65px 0px 5px 0px;
+#contact-content {
+	font-size: 0.85em;
 }
 
-.tour-row {
-	padding: 25px;
-}
 
-.tickets-btn {
-	font-size: 1.2em;
-}
+
+/* --- YouTube --- */
 
 #youtube {
 	display: none;
@@ -115,11 +129,15 @@ a:hover {
 	max-height: 236px;
 	max-width: 420px;
 }
-/*
-.footer {
-	padding-top: 25px;
-	background-color: #cbcdd5;
-}*/
+
+
+
+
+/* --- Misc --- */
+
+#logo {
+	max-height: 120px;
+}
 
 .grey-row {
 	padding-top: 25px;
@@ -130,36 +148,3 @@ a:hover {
 	padding: 25px 0px 25px 0px;
 	background-color: #ffffff;
 }
-
-#music-header {
-	font-size: 2.0em;
-}
-
-.contact {
-	font-size: 0.85em;
-}
-
-#contact-header {
-	font-size: 2.0em;
-}
-
-/*#preorder-container {
-	margin-top: 45px;
-	display: none;
-	font-size: 1.6em;
-	background-color: #e2e2e2;
-}*/
-
-
-
-/*
-.btn-primary {
-	background-color: #000000;
-	color: #64E764;
-	border-color: #74E774;
-}
-
-.btn-primary:hover {
-	background-color: #222222;
-	border-color: #74E774;
- }*/
