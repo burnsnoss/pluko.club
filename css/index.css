@@ -10,11 +10,13 @@ body, html {
 
 a {
 	color: #101010;
+	text-decoration: none;
 }
 
 a:hover {
 	color: #b5c7d8;
 	transition-duration: 0.3s;
+	text-decoration: none;
 }
 
 
@@ -76,7 +78,8 @@ a:hover {
 }
 
 #top-row {
-	background-image: url('../imgs/grey-background.jpg');
+	background-image: url('../imgs/grey-background2.jpeg');
+	background-size: cover;
 }
 
 #album-img {
@@ -84,11 +87,11 @@ a:hover {
 }
 
 #album-title {
-	font-size: 3.3em;
+	font-size: 2.85em;
 }
 
 #preorder-button {
-	font-size: 2.0em;
+	font-size: 1.7em;
 }
 
 
@@ -102,6 +105,13 @@ a:hover {
 #spotify-container {
 	height: 500px;
 	max-width: 630px;
+	overflow: hidden;
+	padding-top: 25px;
+}
+
+#spotify-iframe {
+	border: 3px solid white;
+	border-radius: 3px;
 }
 
 
@@ -120,7 +130,7 @@ a:hover {
 
 /* --- YouTube --- */
 
-#youtube {
+/*#youtube {
 	display: none;
 	padding: 35px;
 }
@@ -128,7 +138,7 @@ a:hover {
 #yt-iframe {
 	max-height: 236px;
 	max-width: 420px;
-}
+}*/
 
 
 
@@ -147,4 +157,12 @@ a:hover {
 .white-row {
 	padding: 25px 0px 25px 0px;
 	background-color: #ffffff;
+}
+
+.buffer-row {
+	min-height: 120px;
+}
+
+.byline {
+	font-size: 0.75em;
 }

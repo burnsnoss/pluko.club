@@ -8,16 +8,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
-    <link href="bootstrap-4.0.0/css/bootstrap.min.css" rel="stylesheet">
+    <link href="./bootstrap-4.0.0/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom Font --> 
     <link href="https://fonts.googleapis.com/css?family=Archivo" rel="stylesheet">
 
     <!-- Custom CSS -->
-    <link href="css/index.css" rel="stylesheet">
+    <link href="./css/index.css" rel="stylesheet">
 
     <!-- Icon Library -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" type="image/x-icon" href="./imgs/pluko_favicon.ico" />
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -45,19 +48,19 @@
           <img src="./imgs/Pluko_Logotype.png" class="img-fluid" id="site-title"></img>
         </div>
         <div class="nav-stuff" id="nav-social-icons">
-          <a href="https://www.soundcloud.com/plukomusic">
+          <a href="https://www.soundcloud.com/plukomusic" target="_blank">
             <i class="fab fa-soundcloud nav-clickable"></i>
           </a>
-          <a href="https://open.spotify.com/artist/01qbSocTDAe2DmKayS89A5">
+          <a href="https://open.spotify.com/artist/01qbSocTDAe2DmKayS89A5" target="_blank">
             <i class="fab fa-spotify nav-clickable spotify-link"></i>
           </a>
-          <a href="https://www.facebook.com/plukomusic/">
+          <a href="https://www.facebook.com/plukomusic/" target="_blank">
             <i class="fab fa-facebook-square nav-clickable facebook-link"></i>
           </a>
-          <a href="https://twitter.com/pluko?lang=en">
+          <a href="https://twitter.com/pluko?lang=en" target="_blank">
             <i class="fab fa-twitter nav-clickable twitter-link"></i>
           </a>
-          <a href="https://www.youtube.com/channel/UCAuFghi1ubOPTjvghHn-9Ow">
+          <a href="https://www.youtube.com/channel/UCAuFghi1ubOPTjvghHn-9Ow" target="_blank">
             <i class="fab fa-youtube nav-clickable youtube-link"></i>
           </a>
         </div>
@@ -81,11 +84,11 @@
             <b>S I X T E E N</b>
           </div>
           <div class="container">
-            <button class="btn" id="preorder-button">
-              &nbsp;
-              p r e o r d e r &nbsp; n o w
-              &nbsp;
-            </button>
+            <a href="https://foreignf.am/sixteen" target="_blank">
+              <button class="btn" id="preorder-button">
+                p r e o r d e r &nbsp; n o w
+              </button>
+            </a>
           </div>
         </div>
       </div>
@@ -93,31 +96,52 @@
 
 
       <!-- Background Audio YouTube Vid (Invisible) -->
-      <div class="row" id="youtube">
+      <!-- <div class="row" id="youtube">
         <div class="container">
           <iframe src="https://www.youtube.com/embed/tCgcWRwVyXM?autoplay=1" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen id="yt-iframe"></iframe>
         </div>
-      </div>
+      </div> -->
 
       <!-- Buffer Row -->
-      <div class="row grey-row"></div>
+      <div class="row grey-row buffer-row"></div>
 
 
 
       <!-- Music Section -->
+      <!-- Spotify Playlist -->
       <div class="row grey-row" id="music-row">
         <div class="container-fluid">
           <div class="container" id="music-header">
             <b>m u s i c</b>
           </div>
           <div class="container" id="spotify-container">
-            <iframe src="https://open.spotify.com/user/1281756893/playlist/2FWBjzS2fzBMhnsRmsxOwl" width="100%" height="100%" frameborder="0" allowtransparency="true" style="border: 3px solid black"></iframe>
+            <iframe src="https://open.spotify.com/embed/user/reeqsaacww5n0o4fqupcn54f2/playlist/59TuwCj3qQ2qpVXR6wQfqO" 
+            id="spotify-iframe"
+            width="100%" height="100%" 
+            frameborder="0" 
+            allowtransparency="true" 
+            allow="encrypted-media"></iframe>
           </div>
         </div>
       </div>
+      <!-- Buffer Row -->
+      <div class="row grey-row buffer-row"></div>
+      <!-- Apple Music Link -->
+      <div class="row grey-row">
+        <div class="container">
+          <a href="https://geo.itunes.apple.com/us/album/reflective-pt-3/1410504524?mt=1&app=music" 
+          style="display:inline-block;overflow:hidden;background:url(https://linkmaker.itunes.apple.com/assets/shared/badges/en-us/music-lrg.svg) no-repeat;width:158px;height:45px;background-size:contain;" 
+          target="_blank"></a>
+        </div>
+      </div>
+
+
 
       <!-- Buffer Row -->
-      <div class="row grey-row"></div>
+      <div class="row grey-row buffer-row"></div>
+
+      <!-- Buffer Row -->
+      <div class="row white-row buffer-row"></div>
 
 
 
@@ -127,27 +151,20 @@
           <b>c o n t a c t</b>
         </div>
       </div>
-      <div id="contact-content">
-        <div class="row">
-          <div class="col-sm"></div>
-          <div class="col-sm">
-            <b>b o o k i n g :</b> &nbsp; &nbsp;
-            L o r e m . I p s u m @ p l u k o . c l u b
-          </div>
-          <div class="col-sm"></div>
-        </div>
-        <div class="row">
-          <div class="col-sm"></div>
-          <div class="col-sm">
-            <b>m g m t :</b> &nbsp; &nbsp;
-            M i c h e l l e . O b a m a @ p l u k o . c l u b
-          </div>
-          <div class="col-sm"></div>
+      <div id="contact-content"></div>
+
+
+
+      <!--
+      <div class="row white-row">
+        <div class="container byline">
+          site by <a href="https://www.github.com/burnsnoss">Casey Burns</a>
         </div>
       </div>
+      -->
 
       <!-- Buffer Row -->
-      <div class="row white-row"></div>
+      <div class="row white-row buffer-row"></div>
 
 
 
@@ -155,19 +172,19 @@
       <div class="row grey-row">
         <div class="container">
           <div class="nav-stuff">
-            <a href="https://www.soundcloud.com/plukomusic">
+            <a href="https://www.soundcloud.com/plukomusic" target="_blank">
               <i class="fab fa-soundcloud nav-clickable"></i>
             </a>
-            <a href="https://open.spotify.com/artist/01qbSocTDAe2DmKayS89A5">
+            <a href="https://open.spotify.com/artist/01qbSocTDAe2DmKayS89A5" target="_blank">
               <i class="fab fa-spotify nav-clickable spotify-link"></i>
             </a>
-            <a href="https://www.facebook.com/plukomusic/">
+            <a href="https://www.facebook.com/plukomusic/" target="_blank">
               <i class="fab fa-facebook-square nav-clickable facebook-link"></i>
             </a>
-            <a href="https://twitter.com/pluko?lang=en">
+            <a href="https://twitter.com/pluko?lang=en" target="_blank">
               <i class="fab fa-twitter nav-clickable twitter-link"></i>
             </a>
-            <a href="https://www.youtube.com/channel/UCAuFghi1ubOPTjvghHn-9Ow">
+            <a href="https://www.youtube.com/channel/UCAuFghi1ubOPTjvghHn-9Ow" target="_blank">
               <i class="fab fa-youtube nav-clickable youtube-link"></i>
             </a>
           </div>

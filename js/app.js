@@ -30,8 +30,8 @@ function fadeInElements() {
 };
 
 $('document').ready(function() {
-	fadeInElements();
-	listen();
+	// fadeInElements();
+	// listen();
 });
 
 $('#music-link').click(function() {
@@ -45,3 +45,4 @@ $('#contact-link').click(function() {
         scrollTop: $("#contact-header").offset().top
     }, 800);
 });
+
