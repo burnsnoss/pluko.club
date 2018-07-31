@@ -4,6 +4,12 @@ body, html {
 	font-family: 'Archivo', sans-serif;
 }
 
+p {
+	font-family: 'Archivo Narrow', sans-serif;
+	font-size: 1.1em;
+	padding: 0px;
+}
+
 
 
 /* --- Hyperlinks --- */
@@ -88,10 +94,14 @@ a:hover {
 
 #album-title {
 	font-size: 2.85em;
+	position: relative;
+	bottom: -10px;
 }
 
-#preorder-button {
-	font-size: 1.7em;
+#preorder-window {
+	min-height: 570px;
+	width: 105%;
+
 }
 
 
@@ -102,17 +112,24 @@ a:hover {
 	font-size: 2.0em;
 }
 
-#spotify-container {
+.music-container {
 	height: 500px;
 	max-width: 630px;
 	overflow: hidden;
 	padding-top: 25px;
 }
 
+.music-iframe {
+	height: 100%;
+	width: 100%;
+}
+
 #spotify-iframe {
 	border: 3px solid white;
 	border-radius: 3px;
 }
+
+
 
 
 
@@ -123,7 +140,9 @@ a:hover {
 }
 
 #contact-content {
-	font-size: 0.85em;
+	font-size: 0.95em;
+	font-family: 'Archivo Narrow', sans-serif;
+	text-align: left;
 }
 
 
@@ -160,9 +179,14 @@ a:hover {
 }
 
 .buffer-row {
-	min-height: 120px;
+	min-height: 45px;
 }
 
 .byline {
 	font-size: 0.75em;
+}
+
+#back-to-top-container {
+	font-family: 'Archivo Narrow', sans-serif;
+	font-size: 0.95em;
 }

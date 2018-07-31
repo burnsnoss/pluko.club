@@ -10,8 +10,8 @@
     <!-- Bootstrap CSS -->
     <link href="./bootstrap-4.0.0/css/bootstrap.min.css" rel="stylesheet">
 
-    <!-- Custom Font --> 
-    <link href="https://fonts.googleapis.com/css?family=Archivo" rel="stylesheet">
+    <!-- Custom Fonts --> 
+    <link href="https://fonts.googleapis.com/css?family=Archivo|Archivo+Narrow" rel="stylesheet">
 
     <!-- Custom CSS -->
     <link href="./css/index.css" rel="stylesheet">
@@ -54,6 +54,9 @@
           <a href="https://open.spotify.com/artist/01qbSocTDAe2DmKayS89A5" target="_blank">
             <i class="fab fa-spotify nav-clickable spotify-link"></i>
           </a>
+          <a href="https://itunes.apple.com/us/artist/pluko/1364127605" target="_blank">
+            <i class="fab fa-apple nav-clickable apple-link"></i>
+          </a>
           <a href="https://www.facebook.com/plukomusic/" target="_blank">
             <i class="fab fa-facebook-square nav-clickable facebook-link"></i>
           </a>
@@ -80,16 +83,23 @@
         </div>
         <!-- Preorder Button Panel -->
         <div class="col-sm" id="preorder-section">
-          <div class="container" id="album-title">
-            <b>S I X T E E N</b>
+          <div class="container-fluid">
+            <div id="album-title">
+              <b>S I X T E E N</b>
+            </div>
+            <p>
+              listen to new single "l o v e" <br>
+              preorder/presave debut album "sixteen" now
+            </p>
           </div>
-          <div class="container">
-            <a href="https://foreignf.am/sixteen" target="_blank">
-              <button class="btn" id="preorder-button">
-                p r e o r d e r &nbsp; n o w
-              </button>
-            </a>
-          </div>
+          <div style="width: 101%; overflow: hidden">
+          <iframe src="https://foreignf.am/sixteen" 
+            frameborder="0" 
+            allow="encrypted-media" 
+            allowtransparency="true"
+            id="preorder-window">
+          </iframe>
+        </div>
         </div>
       </div>
 
@@ -109,30 +119,33 @@
 
       <!-- Music Section -->
       <!-- Spotify Playlist -->
+      <div class="row grey-row">
+        <div class="container" id="music-header">
+          <b>m u s i c</b>
+        </div>
+      </div>
       <div class="row grey-row" id="music-row">
-        <div class="container-fluid">
-          <div class="container" id="music-header">
-            <b>m u s i c</b>
-          </div>
-          <div class="container" id="spotify-container">
+        <div class="col-md">
+          <div class="container-fluid music-container">
             <iframe src="https://open.spotify.com/embed/user/reeqsaacww5n0o4fqupcn54f2/playlist/59TuwCj3qQ2qpVXR6wQfqO" 
             id="spotify-iframe"
-            width="100%" height="100%" 
+            class="music-iframe"
             frameborder="0" 
             allowtransparency="true" 
             allow="encrypted-media"></iframe>
           </div>
         </div>
-      </div>
-      <!-- Buffer Row -->
-      <div class="row grey-row buffer-row"></div>
-      <!-- Apple Music Link -->
-      <div class="row grey-row">
-        <div class="container">
-          <a href="https://geo.itunes.apple.com/us/album/reflective-pt-3/1410504524?mt=1&app=music" 
-          style="display:inline-block;overflow:hidden;background:url(https://linkmaker.itunes.apple.com/assets/shared/badges/en-us/music-lrg.svg) no-repeat;width:158px;height:45px;background-size:contain;" 
-          target="_blank"></a>
+        <div class="col-md">
+          <div class="container-fluid music-container">
+            <iframe allow="autoplay *; encrypted-media *;" 
+            frameborder="0" 
+            sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation-by-user-activation" 
+            src="https://embed.music.apple.com/us/playlist/pluko-vitals-playlist/pl.88b0889156ff452cb3495b432e9bccce?app=music"
+            class="music-iframe"
+            id="applemusic-iframe"></iframe>
+          </div>
         </div>
+
       </div>
 
 
@@ -151,7 +164,21 @@
           <b>c o n t a c t</b>
         </div>
       </div>
-      <div id="contact-content"></div>
+      <div class="row white-row">
+        <div class="col-sm"></div>
+        <div class="col-sm">
+          <div id="contact-content">
+            <b>bookings - n/s america: </b><br>
+            latane hughes <br>
+            <a href="mailto:lhughes@paradigmagency.com">lhughes@paradigmagency.com</a>
+            <br><br>
+            <b>all other inquiries: </b><br>
+            <a href="mailto:pluko@redlightmanagement.com">pluko@redlightmanagement.com</a>
+          </div>
+        </div>
+        <div class="col-sm"></div>
+      </div>
+      
 
 
 
@@ -169,6 +196,11 @@
 
 
       <!-- Footer --> 
+      <!-- <div class="row grey-row">
+        <div class="container" id="back-to-top-container">
+          <a class="nav-clickable" id="back-to-top"> &#x2191 back to top &#x2191 </a>
+        </div>
+      </div> -->
       <div class="row grey-row">
         <div class="container">
           <div class="nav-stuff">
@@ -177,6 +209,9 @@
             </a>
             <a href="https://open.spotify.com/artist/01qbSocTDAe2DmKayS89A5" target="_blank">
               <i class="fab fa-spotify nav-clickable spotify-link"></i>
+            </a>
+            <a href="https://itunes.apple.com/us/artist/pluko/1364127605" target="_blank">
+              <i class="fab fa-apple nav-clickable apple-link"></i>
             </a>
             <a href="https://www.facebook.com/plukomusic/" target="_blank">
               <i class="fab fa-facebook-square nav-clickable facebook-link"></i>
