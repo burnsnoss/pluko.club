@@ -145,7 +145,6 @@ a:hover {
 
 
 
-
 /* --- Contact --- */
 
 #contact-header {
@@ -165,12 +164,17 @@ a:hover {
 /*#youtube {
 	display: none;
 	padding: 35px;
-}
+}  */
 
 #yt-iframe {
-	max-height: 236px;
-	max-width: 420px;
-}*/
+	width: 100%;
+	height: 100%;
+}
+
+
+#yt-container {
+	height: 400px;
+}
 
 
 
