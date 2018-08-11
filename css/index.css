@@ -84,7 +84,7 @@ a:hover {
 }
 
 #top-row {
-	background-image: url('../imgs/grey-background2.jpeg');
+	background-image: url('../imgs/grey-bg.jpg');
 	background-size: cover;
 }
 
@@ -131,11 +131,18 @@ a:hover {
 */
 
 
-/* --- Music --- */
 
-#music-header {
-	font-size: 2.0em;
+/* --- Tour --- */
+
+#tour-col {
+	min-height: 400px;
 }
+
+
+
+
+
+/* --- Music --- */
 
 .music-container {
 	height: 500px;
@@ -161,10 +168,6 @@ a:hover {
 
 
 /* --- Contact --- */
-
-#contact-header {
-	font-size: 2.0em;
-}
 
 #contact-content {
 	font-size: 1.1em;
@@ -218,4 +221,8 @@ a:hover {
 	height: 100%;
 	width: 100%;
 	margin: 0px;
+}
+
+.section-header {
+	font-size: 2.0em;
 }

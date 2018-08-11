@@ -30,8 +30,13 @@ function fadeInElements() {
 };
 
 $('document').ready(function() {
-	// fadeInElements();
-	// listen();
+	
+});
+
+$('#tour-link').click(function() {
+    $([document.documentElement, document.body]).animate({
+        scrollTop: $("#tour-header").offset().top
+    }, 800);
 });
 
 $('#music-link').click(function() {
