@@ -1,3 +1,11 @@
+/* #c9f3ff -- album bckgrnd
+ * #e3973f -- letters
+ * #b0edff -- bunk
+ * #96e9ff -- bunk
+ * #7de2ff -- dark blue, not bunk
+ * #e3f9ff -- lighter blue for btn bckgrnd
+ * #caf4ff -- same as above, but better */
+
 body, html {
 	height: 100%;
 	width: 100%;
@@ -20,7 +28,7 @@ a {
 }
 
 a:hover {
-	color: #b5c7d8;
+	color: #7de2ff;
 	transition-duration: 0.3s;
 	text-decoration: none;
 }
@@ -30,17 +38,18 @@ a:hover {
 /* --- Buttons --- */
 
 .btn {
-	border-color: #ffffff;
+	border-color: #696969;
 	border-width: 4px;
 	color: #333333;
-	background-color: #cbcdd5;
+	background-color: #ccf3ff;
 	border-radius: 3px;
+	margin-bottom: 40px;
 }
 
 .btn:hover {
-	border-color: #ff893b;
+	border-color: #e3973f;
 	border-width: 4px;
-	color: #ffffff;
+	color: #e3973f;
 	border-radius: 3px;
 }
 
@@ -67,7 +76,7 @@ a:hover {
 }
 
 .nav-clickable:hover {
-	background-color: #cbcdd5;
+	background-color: #7de2ff;
 	color: #ffffff;
 	transition-duration: 0.3s;
 	cursor: pointer;
@@ -88,7 +97,7 @@ a:hover {
 }
 
 #top-row {
-	background-image: url('../imgs/grey-bg.jpg');
+	background-color: #c9f3ff;
 	background-size: cover;
 }
 
@@ -97,6 +106,10 @@ a:hover {
 	width: auto;
 	height: auto;
 }
+
+
+
+
 
 #album-title {
 	color: #333333;
@@ -108,7 +121,7 @@ a:hover {
 	padding-bottom: 17px;
 }
 
-#yt-container {
+/*#yt-container {
 	position: relative;
     width: 100%;
     height: 100%;
@@ -125,7 +138,7 @@ a:hover {
 
 #yt-row {
 	padding-bottom: 50px;
-}
+}*/
 
 /*#preorder-window {
 	width: 105%;
@@ -201,7 +214,7 @@ a:hover {
 
 .grey-row {
 	padding-top: 25px;
-	background-color: #cbcdd5;
+	background-color: #c9f3ff;
 }
 
 .white-row {
@@ -222,11 +235,11 @@ a:hover {
 	font-size: 0.95em;
 }
 
-.hundies {
+/*.hundies {
 	height: 100%;
 	width: 100%;
 	margin: 0px;
-}
+}*/
 
 .section-header {
 	font-size: 2.0em;

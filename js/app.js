@@ -30,7 +30,7 @@ function fadeInElements() {
 };
 
 $('document').ready(function() {
-	
+	// Dont do anything besides load
 });
 
 $('#tour-link').click(function() {
