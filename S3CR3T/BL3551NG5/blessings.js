@@ -1,6 +1,6 @@
 
-let sizeX = 1920;
-let sizeY = 1080;
+let sizeX = 500;
+let sizeY = 1000;
 
 let deg = 0;
 let rotateSpeed = 1;

@@ -1,4 +1,4 @@
-/* #c9f3ff -- album bckgrnd
+/* #da5a50 -- album bckgrnd
  * #e3973f -- letters
  * #b0edff -- bunk
  * #96e9ff -- bunk
@@ -28,7 +28,7 @@ a {
 }
 
 a:hover {
-	color: #7de2ff;
+	color: #e96662;
 	transition-duration: 0.3s;
 	text-decoration: none;
 }
@@ -38,19 +38,20 @@ a:hover {
 /* --- Buttons --- */
 
 .btn {
-	border-color: #696969;
+	border-color: #ffffff;
 	border-width: 4px;
-	color: #333333;
-	background-color: #ccf3ff;
+	color: #ffffff;
+	background-color: #e96662;
 	border-radius: 3px;
 	margin-bottom: 40px;
 }
 
 .btn:hover {
-	border-color: #e3973f;
+	border-color: #eecb00;
 	border-width: 4px;
 	color: #e3973f;
 	border-radius: 3px;
+	font-style: italic;
 }
 
 /*#buy-btn {
@@ -76,7 +77,7 @@ a:hover {
 }
 
 .nav-clickable:hover {
-	background-color: #7de2ff;
+	background-color: #e96662;
 	color: #ffffff;
 	transition-duration: 0.3s;
 	cursor: pointer;
@@ -97,7 +98,7 @@ a:hover {
 }
 
 #top-row {
-	background-color: #c9f3ff;
+	background-color: #da5a50;
 	background-size: cover;
 }
 
@@ -112,13 +113,14 @@ a:hover {
 
 
 #album-title {
-	color: #333333;
+	color: #ffffff;
 	font-size: 2.85em;
 	padding-top: 15px;
 }
 
 #album-info {
 	padding-bottom: 17px;
+	color: #ffffff;
 }
 
 /*#yt-container {
@@ -214,7 +216,8 @@ a:hover {
 
 .grey-row {
 	padding-top: 25px;
-	background-color: #c9f3ff;
+	background-color: #da5a50;
+	color: #ffffff;
 }
 
 .white-row {
