@@ -16,6 +16,7 @@
 
 	--nav-color: #3a3a3a;
 	--nav-hover: #ffffff;
+	--nav-hover-bg: #e7d5f4;
 
 	--btn-bg: #ba88df;
 	--btn-hover: #00adef;
@@ -97,7 +98,7 @@ a:hover {
 }
 
 .nav-clickable:hover {
-	background-color: var(--row-bg);
+	background-color: var(--nav-hover-bg);
 	color: var(--nav-hover);
 	transition-duration: 0.3s;
 	cursor: pointer;
