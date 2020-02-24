@@ -6,6 +6,26 @@
  * #e3f9ff -- lighter blue for btn bckgrnd
  * #caf4ff -- same as above, but better */
 
+:root {
+	--row-bg: #e7d5f4;
+	--row-color: #3a3a3a;
+	--alt-row-bg: #ffffff;
+
+	--a-color: #3a3a3a;
+	--a-hover: #00adef;
+
+	--nav-color: #3a3a3a;
+	--nav-hover: #ffffff;
+
+	--btn-bg: #ba88df;
+	--btn-hover: #00adef;
+	--btn-color: #3a3a3a;
+	--alb-info: #3a3a3a;
+	--bandsintown: #ba88df;
+
+}
+
+
 body, html {
 	height: 100%;
 	width: 100%;
@@ -23,12 +43,12 @@ p {
 /* --- Hyperlinks --- */
 
 a {
-	color: #101010;
+	color: var(--a-color);
 	text-decoration: none;
 }
 
 a:hover {
-	color: #e96662;
+	color: var(--a-hover);
 	transition-duration: 0.3s;
 	text-decoration: none;
 }
@@ -38,18 +58,18 @@ a:hover {
 /* --- Buttons --- */
 
 .btn {
-	border-color: #ffffff;
+	border-color: var(--btn-color);
 	border-width: 4px;
-	color: #ffffff;
-	background-color: #da5a50;
+	color: var(--btn-color);
+	background-color: var(--btn-bg);
 	border-radius: 3px;
 	margin-bottom: 40px;
 }
 
 .btn:hover {
-	border-color: #eecb00;
+	border-color: var(--btn-hover);
 	border-width: 4px;
-	color: #eecb00;
+	color: var(--btn-hover);
 	border-radius: 3px;
 	font-style: italic;
 }
@@ -64,7 +84,7 @@ a:hover {
 
 .navbar {
 	padding: 25px 0px 25px 0px;
-	color: #101010;
+	color: var(--nav-color);
 }
 
 .nav-stuff {
@@ -77,8 +97,8 @@ a:hover {
 }
 
 .nav-clickable:hover {
-	background-color: #e96662;
-	color: #ffffff;
+	background-color: var(--row-bg);
+	color: var(--nav-hover);
 	transition-duration: 0.3s;
 	cursor: pointer;
 	text-decoration: none;
@@ -98,7 +118,7 @@ a:hover {
 }
 
 #top-row {
-	background-color: #e96662;;
+	background-color: var(--row-bg);
 	background-size: cover;
 }
 
@@ -113,14 +133,14 @@ a:hover {
 
 
 #album-title {
-	color: #ffffff;
+	color: var(--alb-info);
 	font-size: 2.85em;
 	padding-top: 15px;
 }
 
 #album-info {
 	padding-bottom: 17px;
-	color: #ffffff;
+	color: var(--alb-info);
 }
 
 /*#yt-container {
@@ -216,13 +236,13 @@ a:hover {
 
 .grey-row {
 	padding-top: 25px;
-	background-color: #e96662;;
-	color: #ffffff;
+	background-color: var(--row-bg);
+	color: var(--row-color);
 }
 
 .white-row {
 	padding: 25px 0px 25px 0px;
-	background-color: #ffffff;
+	background-color: var(--alt-row-bg);
 }
 
 .buffer-row {
@@ -249,5 +269,5 @@ a:hover {
 }
 
 #tagline:hover {
-	color: white;
+	color: #ffffff;
 }
