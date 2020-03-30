@@ -7,13 +7,10 @@
  * #caf4ff -- same as above, but better */
 
 :root {
-<<<<<<< HEAD
 	--row-bg: #ba88df;
 	--row-color: #3a3a3a;
-=======
 	--row-bg: #fbb03b;
 	--row-color: #ffffff;
->>>>>>> master
 	--alt-row-bg: #ffffff;
 
 	--a-color: #3a3a3a;
@@ -21,11 +18,8 @@
 
 	--nav-color: #3a3a3a;
 	--nav-hover: #ffffff;
-<<<<<<< HEAD
 	--nav-hover-bg: #ba88df;
-=======
 	--nav-hover-bg: #f8931f;
->>>>>>> master
 
 	--btn-bg: #ba88df;
 	--btn-color: #ffffff;
@@ -35,10 +29,10 @@
 	--bandsintown: #ba88df;
 }
 
-@font-face {
+/*@font-face {
 	font-family: 'helvbold';
 	src: url('../imgs/Helvetica-Bold.otf');
-}
+}*/
 
 
 body, html {
