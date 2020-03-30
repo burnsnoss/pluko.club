@@ -7,21 +7,31 @@
  * #caf4ff -- same as above, but better */
 
 :root {
+<<<<<<< HEAD
 	--row-bg: #ba88df;
 	--row-color: #3a3a3a;
+=======
+	--row-bg: #fbb03b;
+	--row-color: #ffffff;
+>>>>>>> master
 	--alt-row-bg: #ffffff;
 
 	--a-color: #3a3a3a;
-	--a-hover: #00adef;
+	--a-hover: #f8931f;
 
 	--nav-color: #3a3a3a;
 	--nav-hover: #ffffff;
+<<<<<<< HEAD
 	--nav-hover-bg: #ba88df;
+=======
+	--nav-hover-bg: #f8931f;
+>>>>>>> master
 
 	--btn-bg: #ba88df;
-	--btn-hover: #00adef;
-	--btn-color: #3a3a3a;
-	--alb-info: #3a3a3a;
+	--btn-color: #ffffff;
+	--btn-brdr-color: #a05bd3;
+	--btn-hover: #f8931f;
+	--alb-info: #ffffff;
 	--bandsintown: #ba88df;
 }
 
@@ -63,7 +73,7 @@ a:hover {
 /* --- Buttons --- */
 
 .btn {
-	border-color: var(--btn-color);
+	border-color: var(--btn-brdr-color);
 	border-width: 4px;
 	color: var(--btn-color);
 	background-color: var(--btn-bg);
