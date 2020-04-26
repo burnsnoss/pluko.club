@@ -1,32 +1,30 @@
-/* #da5a50 -- album bckgrnd
- * #e3973f -- letters
- * #b0edff -- bunk
- * #96e9ff -- bunk
- * #7de2ff -- dark blue, not bunk
- * #e3f9ff -- lighter blue for btn bckgrnd
- * #caf4ff -- same as above, but better */
+/*
+#82c8fc lightskyblue
+#eb2583 deeppink
+#f62f96 deeppink2
+#f671fc violet
+#9197f8 cornflowerblue
+#7f7df3 mediumslateblue
+*/
 
 :root {
-	--row-bg: #ba88df;
-	--row-color: #3a3a3a;
-	--row-bg: #fbb03b;
+	--row-bg: #82c8fc;
 	--row-color: #ffffff;
 	--alt-row-bg: #ffffff;
 
 	--a-color: #3a3a3a;
-	--a-hover: #f8931f;
+	--a-hover: #7f7df3;
 
 	--nav-color: #3a3a3a;
 	--nav-hover: #ffffff;
-	--nav-hover-bg: #ba88df;
-	--nav-hover-bg: #f8931f;
+	--nav-hover-bg: #7f7df3;
 
-	--btn-bg: #ba88df;
+	--btn-bg: #7f7df3;
 	--btn-color: #ffffff;
-	--btn-brdr-color: #a05bd3;
-	--btn-hover: #f8931f;
+	--btn-brdr-color: #9197f8;
+	--btn-hover: #f62f96;
 	--alb-info: #ffffff;
-	--bandsintown: #ba88df;
+	--bandsintown: #7f7df3;
 }
 
 /*@font-face {
