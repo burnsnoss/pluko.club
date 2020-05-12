@@ -7,8 +7,16 @@
 #7f7df3 mediumslateblue
 */
 
+/* 
+5c96fc cornflower blue
+50a7fc
+fb164f crimson
+fbab89 light salmon
+fdcaad peach puff
+*/
+
 :root {
-	--row-bg: #82c8fc;
+	--row-bg: #50a7fc;
 	--row-color: #ffffff;
 	--alt-row-bg: #ffffff;
 
@@ -19,10 +27,10 @@
 	--nav-hover: #ffffff;
 	--nav-hover-bg: #7f7df3;
 
-	--btn-bg: #7f7df3;
+	--btn-bg: #fbab89;
 	--btn-color: #ffffff;
-	--btn-brdr-color: #9197f8;
-	--btn-hover: #f62f96;
+	--btn-brdr-color: #fdcaad;
+	--btn-hover: #fb164f;
 	--alb-info: #ffffff;
 	--bandsintown: #7f7df3;
 }
