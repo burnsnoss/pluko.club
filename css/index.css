@@ -124,6 +124,10 @@ a:hover {
 	max-height: 60px;
 }
 
+#tour-link:hover, #music-link:hover, #contact-link:hover, #shop-link:hover {
+	color: var(--nav-hover);
+}
+
 
 
 /* --- Jumbotron --- */
