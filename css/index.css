@@ -5,6 +5,7 @@
 #f671fc violet
 #9197f8 cornflowerblue
 #7f7df3 mediumslateblue
+#e4a681 darksalmon
 */
 
 /* 
@@ -16,23 +17,23 @@ fdcaad peach puff
 */
 
 :root {
-	--row-bg: #50a7fc;
+	--row-bg: #fadc68;
 	--row-color: #ffffff;
 	--alt-row-bg: #ffffff;
 
 	--a-color: #3a3a3a;
-	--a-hover: #7f7df3;
+	--a-hover: #e4a3dd;
 
 	--nav-color: #3a3a3a;
 	--nav-hover: #ffffff;
-	--nav-hover-bg: #7f7df3;
+	--nav-hover-bg: #e4a3dd;
 
-	--btn-bg: #fbab89;
+	--btn-bg: #95b7fb;
 	--btn-color: #ffffff;
-	--btn-brdr-color: #fdcaad;
-	--btn-hover: #fb164f;
+	--btn-brdr-color: #5d96cf;
+	--btn-hover: #e4a3dd;
 	--alb-info: #ffffff;
-	--bandsintown: #7f7df3;
+	--bandsintown: #95b7fb;
 
 }
 
