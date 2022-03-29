@@ -37,7 +37,7 @@ $('document').ready(function() {
     	progressColor: 'yellow'
 	});
 
-	wavesurfer.load('./music/TEMPURA_KIDZ_Moe_Shop_(getmp3.pro).mp3');
+	wavesurfer.load('./music/sleep_it_off.mp3');
 
 });
 
