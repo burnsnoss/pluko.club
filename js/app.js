@@ -30,7 +30,15 @@ function fadeInElements() {
 };
 
 $('document').ready(function() {
-	// Dont do anything besides load
+	// wavesurfer obj
+	var wavesurfer = WaveSurfer.create({
+    	container: '#waveform',
+    	waveColor: 'white',
+    	progressColor: 'yellow'
+	});
+
+	wavesurfer.load('./music/TEMPURA_KIDZ_Moe_Shop_(getmp3.pro).mp3');
+
 });
 
 $('#tour-link').click(function() {
@@ -57,4 +65,5 @@ $('#back-to-the-top').click(function() {
 	}, 800);
 	return true;
 });
+
 
