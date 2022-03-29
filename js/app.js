@@ -34,10 +34,15 @@ $('document').ready(function() {
 	var wavesurfer = WaveSurfer.create({
     	container: '#waveform',
     	waveColor: 'white',
-    	progressColor: 'yellow'
+    	progressColor: 'yellow',
+	scrollParent: true
 	});
 
 	wavesurfer.load('./music/sleep_it_off.mp3');
+
+	wavesurfer.on('ready', function() {
+		wavesurfer.play();
+	});
 
 });
 
