@@ -39,5 +39,12 @@ body, html {
 	text-align: center;
 }
 
+#waveform {
+	max-width: 100%;
+}
+
+#play-container {
+	padding-top: 15px;
+}
 
 

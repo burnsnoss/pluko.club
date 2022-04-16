@@ -35,7 +35,12 @@ $('document').ready(function() {
     	container: '#waveform',
     	waveColor: 'white',
     	progressColor: 'yellow',
-	scrollParent: true
+	scrollParent: true,
+	responsive: true,
+	normalize: true,
+	plugins: [
+		Wavesurfer.regions.create({})
+	]
 	});
 
 	wavesurfer.load('./music/sleep_it_off.mp3');
@@ -44,6 +49,20 @@ $('document').ready(function() {
 		wavesurfer.play();
 	});
 
+	$('#play-btn').html('p l a y');
+});
+
+
+$('#play-btn').click(function() {
+    // wavesurfer.playPause();
+    if ($('#play-btn').html() == 'p l a y') {
+        wavesurfer.play();
+        $('#play-btn').html('p a u s e');
+    }
+    else {
+        wavesurfer.pause();
+        $('#play-btn').html('p l a y');
+    }
 });
 
 $('#tour-link').click(function() {
